@@ -172,14 +172,16 @@
   </div>
   <!-- Fim do Cards CSS -->
 
-  <div class="container">
-    <hr>
-     <div class="row">
-      <div class="col-md-12">
-        <h4 class="text-center p-5">Trailer de alguns filmes</h4>
+  <div class="container" style="background-color: #A9A9A9;">
+    <!-- Começo do jumbotron CSS -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <hr>
+        <h1 class="display-4 text-light">Melhores filmes</h1>
+        <p class="lead text-light">Aqui eu trago o trailer dos melhores filmes desses personagens.</p>
       </div>
     </div>
-
+    <!-- Fim do jumbotron CSS -->
 
     <div class="row">
       <div class="col-sm">
@@ -204,25 +206,25 @@
   </div>
 
   <!-- Começo do contato-->
-  <div class="container">
+  <div class="container" style="background-color: #A9A9A9;">
     <hr>
     <div class="row">
       <div class="col-md-6">
-        <h4 class="text-center">Entre em contato comigo</h4>
+        <h4 class="text-center text-light">Entre em contato comigo</h4>
       </div>
     </div>
     <div class="row">
       <div class="col-md-6">
         <form>
-          <label for="nome">Nome:</label><br>
+          <label for="nome" class="text-light">Nome:</label><br>
           <input type="text" id="nome" onkeyup='validaNome()'>
           <div id='txtNome'></div>
           <br>
-          <label for="email">E-mail:</label><br>
+          <label for="email" class="text-light">E-mail:</label><br>
           <input type="text" id="email" onkeyup='validaEmail()'>
           <div id='txtEmail'></div>
           <br>
-          <label for="assunto">Assunto:</label><br>
+          <label for="assunto" class="text-light">Assunto:</label><br>
           <textarea name="assunto" id="assunto" cols="60" rows="5" onkeyup="validaAssunto()"></textarea>
           <div id='txtAssunto'></div>
           <br>
@@ -233,41 +235,37 @@
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116933.12565807697!2d-47.241760556406284!3d-23.670229182022872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf767fc28a7c79%3A0x64f4d1397f1576be!2sIbi%C3%BAna%2C%20SP%2C%2018150-000!5e0!3m2!1spt-BR!2sbr!4v1634836566301!5m2!1spt-BR!2sbr"
           width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
     </div>
-    <!-- Fim do contato-->
-
-
-
-
-
-    <!--Começo do Footer-->
-    <hr>
-    <footer>
-      <div class="row mb-3">
-        <div class="col-md-12 d-flex justify-content-center">
-
-          <a href="http://www.linkedin.com/in/leonardorussodev" target="_blank" class="p-3">
-            <img class="tm-social" src="assets/img/link.png" height="40px" width="40px" alt="Logo do Linkedin">
-          </a>
-          <a href="https://github.com/leorusso2300" target="_blank" class="p-3">
-            <img class="tm-social" src="assets/img/github.png" height="40px" width="40px" alt="Logo do Github">
-          </a>
-          <a href="http://wa.me/5515998248005" target="_blank" class="p-3">
-            <img class="tm-social" src="assets/img/zap.png" height="40px" width="40px" alt="Logo do Whatsapp">
-          </a>
-
-
-        </div>
-      </div>
-
-      <div class="row text-black">
-        <div class="col-md-12">
-          <p class="text-center">
-            Todos os direitos reservados para Leonardo Russo &copy;
-          </p>
-        </div>
-      </div>
-    </footer>
   </div>
+  <!-- Fim do contato-->
+
+  <hr>
+  <!--Começo do Footer-->
+  <footer class="bg-danger">
+    <div class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+
+        <a href="http://www.linkedin.com/in/leonardorussodev" target="_blank" class="p-3">
+          <img class="tm-social" src="assets/img/link.png" height="40px" width="40px" alt="Logo do Linkedin">
+        </a>
+        <a href="https://github.com/leorusso2300" target="_blank" class="p-3">
+          <img class="tm-social" src="assets/img/github.png" height="40px" width="40px" alt="Logo do Github">
+        </a>
+        <a href="http://wa.me/5515998248005" target="_blank" class="p-3">
+          <img class="tm-social" src="assets/img/zap.png" height="40px" width="40px" alt="Logo do Whatsapp">
+        </a>
+
+
+      </div>
+    </div>
+
+    <div class="row text-black">
+      <div class="col-md-12">
+        <p class="text-center">
+          Todos os direitos reservados para Leonardo Russo &copy;
+        </p>
+      </div>
+    </div>
+  </footer>
   <!-- Fim do Footer-->
 
 
